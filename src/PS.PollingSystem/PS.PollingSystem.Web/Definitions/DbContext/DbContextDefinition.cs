@@ -1,4 +1,5 @@
-﻿using PS.PollingSystem.Application;
+﻿using Microsoft.EntityFrameworkCore;
+using PS.PollingSystem.Application;
 using PS.PollingSystem.Web.Definitions.Base;
 
 namespace PS.PollingSystem.Web.Definitions.DbContext
