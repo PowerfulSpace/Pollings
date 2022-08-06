@@ -6,8 +6,8 @@ namespace PS.PollingSystem.Entities
     [DebuggerDisplay("{QuestionText}")]
     public  class Poll : Identity
     {
-        public string QuestionText { get; set; } = null!;
-        public List<Answer>? Answers { get; set; }
+        public string QuestionText { get; init; }
+        public List<Answer>? Answers { get;}
 
 
         public Poll(string questionText, List<Answer> answers) : this(questionText)
