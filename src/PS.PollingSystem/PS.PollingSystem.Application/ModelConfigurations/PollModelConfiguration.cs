@@ -13,7 +13,7 @@ namespace PS.PollingSystem.Application.ModelConfigurations
     {
         public void Configure(EntityTypeBuilder<Poll> builder)
         {
-            builder.ToTable("Answers");
+            builder.ToTable("Polls");
 
             builder.HasKey(x => x.Id);
 

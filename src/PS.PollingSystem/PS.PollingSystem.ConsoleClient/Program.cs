@@ -19,11 +19,11 @@ poll.VoteTo(Guid.Parse("775D8345-4806-4E90-9166-AE8A17ECC80C"));
 poll.VoteTo(Guid.Parse("7B771BF9-A98D-4A40-B41B-B6E28D407FF4"), 5);
 poll.VoteTo(Guid.Parse("BAB6635C-A395-49C4-8E23-2D69988CF1A3"), 25);
 
-using(var context = new ApplicationDbContext())
-{
-    context.Polls.Add(poll);
-    context.SaveChanges();
-}
+//using(var context = new ApplicationDbContext())
+//{
+//    context.Polls.Add(poll);
+//    context.SaveChanges();
+//}
 
 var result = builder.GetResults(poll);
 
