@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PS.PollingSystem.Entities",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PS.PollingSystem.Application", "PS.PollingSystem.Application\PS.PollingSystem.Application.csproj", "{D7A0E47C-17F6-470B-8F9E-1A1A5A22DF55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PS.PollingSystem.ConsoleClient", "PS.PollingSystem.ConsoleClient\PS.PollingSystem.ConsoleClient.csproj", "{4DB1DCDB-F782-45E6-9C7E-BE7B676F190A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PS.PollingSystem.ConsoleClient", "PS.PollingSystem.ConsoleClient\PS.PollingSystem.ConsoleClient.csproj", "{4DB1DCDB-F782-45E6-9C7E-BE7B676F190A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PS.PollingSystem.Web", "PS.PollingSystem.Web\PS.PollingSystem.Web.csproj", "{DE2C7223-28BE-4FBD-B7BB-ED6258DE06C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PS.PollingSystem.Web", "PS.PollingSystem.Web\PS.PollingSystem.Web.csproj", "{DE2C7223-28BE-4FBD-B7BB-ED6258DE06C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
