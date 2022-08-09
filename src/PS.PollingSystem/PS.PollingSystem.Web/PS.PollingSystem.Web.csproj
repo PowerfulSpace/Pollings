@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PS.PollingSystem.Application\PS.PollingSystem.Application.csproj" />
+    <ProjectReference Include="..\PS.PollingSystem.BlazorLib\PS.PollingSystem.BlazorLib.csproj" />
   </ItemGroup>
 
 </Project>

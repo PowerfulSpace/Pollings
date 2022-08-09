@@ -1,0 +1,17 @@
+﻿@page
+@using PS.PollingSystem.BlazorLib
+@model CreateModel
+@{
+    ViewBag.Title = "Создание нового голосования";
+}
+
+
+<div class="row">
+   <component type="typeof(PollCreateComponent)" render-mode="ServerPrerendered"/>
+
+</div>
+
+
+@section Scripts{
+    <script src="_framework/blazor.server.js"></script>
+}
